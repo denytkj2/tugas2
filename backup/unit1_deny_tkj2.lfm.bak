@@ -1,0 +1,61 @@
+object Tugas_2: TTugas_2
+  Left = 246
+  Height = 247
+  Top = 114
+  Width = 410
+  Caption = 'Tugas_2'
+  ClientHeight = 247
+  ClientWidth = 410
+  Color = 33023
+  LCLVersion = '1.0.14.0'
+  object Kolom: TEdit
+    Left = 48
+    Height = 23
+    Top = 56
+    Width = 312
+    Color = clYellow
+    TabOrder = 0
+  end
+  object kata: TLabel
+    Left = 144
+    Height = 16
+    Top = 24
+    Width = 122
+    Caption = 'Silahkan Masukan Kata'
+    ParentColor = False
+  end
+  object Tekan: TButton
+    Left = 48
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Tekan'
+    OnClick = TekanClick
+    TabOrder = 1
+  end
+  object Reset: TButton
+    Left = 285
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Reset'
+    OnClick = ResetClick
+    TabOrder = 2
+  end
+  object Hasil: TLabel
+    Left = 144
+    Height = 1
+    Top = 104
+    Width = 1
+    ParentColor = False
+  end
+  object Tentang: TCheckBox
+    Left = 16
+    Height = 19
+    Top = 216
+    Width = 64
+    Caption = 'Tentang'
+    OnChange = TentangChange
+    TabOrder = 3
+  end
+end
